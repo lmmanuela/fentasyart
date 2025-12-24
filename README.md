@@ -44,24 +44,21 @@ Proyek ini dibangun untuk menyelesaikan masalah **fragmentasi informasi** jadwal
 
 ---
 
-## 📸 Galeri Tampilan
+## 📸 Preview Aplikasi
 
-Berikut adalah antarmuka aplikasi Booksy yang sudah berjalan:
+Berikut adalah tampilan antarmuka dari **FENtasyArt**:
 
-| **Halaman Utama (Home)** | **Katalog Pencarian** |
+### 🏠 Tampilan User (Frontend)
+| Halaman Utama | Form Booking |
 | :---: | :---: |
-| <img src="images/ss1.png" alt="Halaman Utama" width="100%"> | <img src="images/ss2.png" alt="Katalog Buku" width="100%"> |
-| *Landing page yang ramah pengguna* | *Fitur pencarian buku real-time* |
+| <img src="assets/screenshots/home.png" alt="Halaman Utama" width="100%"> | <img src="assets/screenshots/booking.png" alt="Form Booking" width="100%"> |
+| *Landing Page yang responsif* | *Sistem booking yang mudah digunakan* |
 
-| **Detail Buku & Stok** | **Tiket QR Code** |
+### 👨‍💻 Tampilan Admin (Backend)
+| Dashboard Admin | Manajemen Workshop |
 | :---: | :---: |
-| <img src="images/ss3.png" alt="Detail Buku" width="100%"> | <img src="images/ss4.png" alt="Tiket QR" width="100%"> |
-| *Informasi lengkap dan sisa stok* | *Bukti booking untuk discan admin* |
-
-| **Dashboard Admin** | **Manajemen Peminjaman** |
-| :---: | :---: |
-| <img src="images/ss5.png" alt="Dashboard Admin" width="100%"> | <img src="images/ss6.png" alt="Data Peminjaman" width="100%"> |
-| *Panel kontrol untuk pustakawan* | *Validasi peminjaman & pengembalian* |
+| <img src="assets/screenshots/admin_dashboard.png" alt="Admin Dashboard" width="100%"> | <img src="assets/screenshots/workshop_list.png" alt="List Workshop" width="100%"> |
+| *Ringkasan statistik pemesanan* | *Kontrol penuh untuk pengelolaan event* |
 
 ---
 
