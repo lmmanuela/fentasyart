@@ -1,207 +1,176 @@
 <div align="center">
 
-  <img src="https://via.placeholder.com/1200x300?text=FENtasyArt+Project+Banner" alt="FENtasyArt Banner" width="100%">
-
-  # 🎨 FENtasyArt
-  **Integrated Creative Space & Workshop Management Platform**
+  <img src="assets/logo.png" alt="FENtasyArt Logo" width="150" height="auto">
+  
+  <h1>🎨 FENtasyArt</h1>
+  
+  <h3>Creative Space & Workshop Management Platform</h3>
+  
+  <p>
+    <i>"Where Creativity Meets Opportunity"</i>
+  </p>
 
   <p>
+    <a href="https://github.com/lmmanuela/fentasyart">
+      <img src="https://img.shields.io/badge/Repo-FENtasyArt-blue?style=for-the-badge&logo=github" alt="GitHub Repo" />
+    </a>
     <a href="#-tech-stack">
       <img src="https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP Version" />
     </a>
     <a href="#-tech-stack">
-      <img src="https://img.shields.io/badge/Bootstrap-5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap Version" />
-    </a>
-    <a href="#-tech-stack">
-      <img src="https://img.shields.io/badge/MySQL-MariaDB-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+      <img src="https://img.shields.io/badge/Database-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
     </a>
      <a href="#-license">
-      <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
+      <img src="https://img.shields.io/badge/Status-Final_Project_UAS-success?style=for-the-badge" alt="Status" />
     </a>
   </p>
 
   <p>
-    <a href="#-about-the-project">About</a> •
-    <a href="#-key-features">Features</a> •
-    <a href="#-installation--setup">Installation</a> •
-    <a href="#-usage">Usage</a> •
-    <a href="#-contributing">Contributing</a>
+    <a href="#-tentang-proyek">About</a> •
+    <a href="#-fitur-unggulan">Features</a> •
+    <a href="#-struktur-proyek">Structure</a> •
+    <a href="#-instalasi--penggunaan">Installation</a>
   </p>
 </div>
 
 ---
 
-## 📖 About The Project
+## 📖 Tentang Proyek
 
-**FENtasyArt** adalah platform manajemen berbasis web yang dirancang khusus untuk memfasilitasi para seniman dan kreator dalam menemukan serta memesan ruang kerja kreatif (*creative space*) serta mendaftarkan diri pada berbagai workshop seni secara instan dan terorganisir.
+**FENtasyArt** adalah platform manajemen berbasis web yang dirancang khusus untuk memfasilitasi seniman dan kreator. Aplikasi ini menjembatani kebutuhan ruang kreatif (*creative space*) dan akses pendidikan seni (*workshops*) dalam satu ekosistem digital yang terintegrasi.
 
-Di era digital ini, akses terhadap ruang fisik untuk berkarya seringkali menjadi hambatan. FENtasyArt hadir sebagai jembatan ekosistem seni yang efisien dan modern.
-
-### 🚩 Masalah yang Dipecahkan (Problem Statement)
-Proyek ini dikembangkan untuk menjawab tantangan nyata dalam komunitas kreatif:
-* **Fragmentasi Informasi:** Mengatasi sulitnya menemukan jadwal workshop seni yang akurat karena informasi yang seringkali tercecer di berbagai platform media sosial.
-* **Proses Reservasi Konvensional:** Menghilangkan friksi dalam pemesanan studio yang masih dilakukan secara manual (chat/telepon) dengan beralih ke sistem *booking* otomatis.
-* **Manajemen Kuota:** Membantu penyelenggara workshop mengelola jumlah peserta secara sistematis (validasi otomatis) untuk menghindari masalah *over-capacity*.
+Proyek ini dibangun untuk menyelesaikan masalah **fragmentasi informasi** jadwal seni dan **inefisiensi pemesanan manual** yang sering terjadi di komunitas kreatif.
 
 ---
 
 ## 🛠 Tech Stack
 
-Sistem ini dibangun menggunakan kombinasi teknologi modern untuk memastikan performa yang stabil, antarmuka yang responsif, dan pengelolaan data yang aman.
+Sistem dibangun dengan pendekatan *Native PHP* yang terstruktur (separation of concerns) untuk memastikan performa ringan dan kemudahan maintenance.
 
-| Component | Technology | Description |
+| Komponen | Teknologi | Deskripsi |
 | :--- | :--- | :--- |
-| **Backend** | ![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white) | PHP 8.x untuk logika bisnis dan pemrosesan data server-side. |
-| **Database** | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white) | Relational Database Management System untuk penyimpanan data. |
-| **Frontend** | ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white) | Framework CSS untuk desain responsif dan *mobile-first*. |
-| **Scripting** | ![jQuery](https://img.shields.io/badge/jQuery-0769AD?logo=jquery&logoColor=white) | Manipulasi DOM dan interaktivitas UI yang dinamis. |
-| **Assets** | ![FontAwesome](https://img.shields.io/badge/Font_Awesome-339AF0?logo=fontawesome&logoColor=white) | Ikon vektor dan tipografi Google Fonts. |
+| **Backend Logic** | PHP Native | Menggunakan folder `handlers/` untuk memproses logika form. |
+| **Database** | MySQL | Penyimpanan data relasional untuk user, booking, dan workshop. |
+| **Frontend** | HTML5, CSS3 | Styling custom (`style.css`) dipadukan dengan layout responsif. |
+| **Interactivity** | JavaScript | Validasi sisi klien dan interaksi UI (`script.js`). |
+| **Assets** | PNG, ICO | Manajemen aset gambar yang terpusat. |
 
 ---
 
-## ✨ Key Features
-
-Berikut adalah fitur unggulan yang diimplementasikan dalam FENtasyArt:
+## ✨ Fitur Unggulan
 
 1.  🗓️ **Smart Booking System**
-    Fitur pemesanan ruang kreatif secara *real-time* dengan algoritma pengecekan ketersediaan slot otomatis, mencegah *double-booking*.
-
-2.  🎨 **Workshop Discovery & Registration**
-    Katalog workshop interaktif yang memudahkan user mengeksplorasi kelas seni berdasarkan kategori dan melakukan pendaftaran langsung dalam satu platform.
-
-3.  📊 **Centralized Admin Dashboard**
-    Panel kendali komprehensif bagi pengelola untuk memantau statistik pemesanan, mengelola inventaris ruang, dan memvalidasi peserta workshop.
-
-4.  🔄 **Automated Status Tracking**
-    Transparansi alur transaksi dengan sistem pelacakan status pesanan (*Pending, Verified, Success*) yang memberikan notifikasi visual bagi pengguna.
-
-5.  📱 **Responsive Art Gallery**
-    Antarmuka katalog ruang dan kegiatan yang dioptimalkan untuk perangkat *mobile* maupun desktop dengan estetika visual yang tinggi.
+    Pemesanan ruang kreatif dengan validasi ketersediaan otomatis yang diproses melalui `booking_handler.php`.
+2.  🎨 **Workshop Discovery**
+    Katalog interaktif untuk menemukan dan mendaftar workshop seni terbaru.
+3.  🛡️ **Secure Authentication**
+    Sistem Login & Register aman dengan hashing password dan session management (`login_handler.php`, `register_handler.php`).
+4.  💼 **Admin Dashboard**
+    Halaman khusus (`admin_dashboard.php`) untuk pengelola memantau reservasi dan pembayaran.
+5.  💳 **Payment Validation**
+    Alur konfirmasi pembayaran yang sistematis untuk memastikan transaksi valid.
 
 ---
 
-## 🚀 Installation & Setup
+## 📂 Struktur Proyek
 
-Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lingkungan lokal Anda (Localhost).
-
-### Prerequisites
-Pastikan Anda telah menginstal software berikut:
-* **XAMPP / Laragon** (Pastikan PHP v8.x dan MySQL berjalan).
-* **Web Browser** (Chrome, Firefox, Edge).
-* **Git** (Opsional, untuk cloning).
-
-### Langkah Instalasi
-
-1.  **Clone Repository**
-    Buka terminal (Git Bash/CMD) dan arahkan ke folder `htdocs` (jika menggunakan XAMPP).
-    ```bash
-    cd C:/xampp/htdocs
-    git clone [https://github.com/username-anda/fentasyart.git](https://github.com/username-anda/fentasyart.git)
-    ```
-
-2.  **Konfigurasi Database**
-    * Buka **phpMyAdmin** (`http://localhost/phpmyadmin`).
-    * Buat database baru dengan nama: `db_fentasyart`.
-    * Import file database yang disertakan di dalam folder project:
-        `database/db_fentasyart.sql`
-
-3.  **Konfigurasi Koneksi (Opsional)**
-    Jika Anda menggunakan password database yang berbeda (bukan default kosong), edit file `config/database.php` (atau file koneksi Anda):
-    ```php
-    $host = "localhost";
-    $user = "root";      // Username database
-    $pass = "";          // Password database
-    $db   = "db_fentasyart";
-    ```
-
-4.  **Jalankan Aplikasi**
-    Buka browser dan akses URL berikut:
-    ```
-    http://localhost/fentasyart
-    ```
-
----
-
-## 💻 Usage
-
-### Untuk Pengunjung (User)
-1.  **Register/Login:** Buat akun baru untuk mulai memesan.
-2.  **Eksplorasi:** Lihat katalog "Creative Space" atau "Workshop".
-3.  **Booking:** Pilih tanggal dan slot waktu yang tersedia, lalu konfirmasi pesanan.
-4.  **Cek Status:** Pantau status persetujuan admin melalui menu "Riwayat Pesanan".
-
-### Untuk Administrator
-1.  Login melalui halaman `/admin` (Gunakan kredensial admin default jika ada).
-2.  Gunakan **Dashboard** untuk melihat ringkasan pendapatan.
-3.  Masuk ke menu **Validasi** untuk menyetujui atau menolak bukti pembayaran user.
-4.  Gunakan menu **Kelola Workshop** untuk menambah jadwal acara baru.
-
----
-
-## 📂 Project Structure
-
-Struktur direktori proyek disusun dengan pola yang rapi untuk memudahkan pengembangan:
+Berikut adalah struktur direktori source code berdasarkan implementasi saat ini:
 
 ```text
 fentasyart/
-├── assets/             # File statis (CSS, JS, Images, Fonts)
-├── config/             # Konfigurasi koneksi database & helper
-├── controllers/        # Logika pemrosesan data (Backend)
-├── database/           # File backup SQL (db_fentasyart.sql)
-├── views/              # Tampilan antarmuka (User & Admin views)
-│   ├── admin/          # Folder khusus view admin
-│   └── user/           # Folder khusus view user
-├── uploads/            # Direktori penyimpanan bukti bayar/gambar
-├── index.php           # Entry point aplikasi
-└── README.md           # Dokumentasi Proyek
+├── assets/                 # File statis dan media
+│   ├── uploads/            # Direktori penyimpanan bukti bayar/gambar user
+│   ├── logo.ico            # Favicon website
+│   ├── logo.png            # Logo utama
+│   ├── script.js           # Logika Frontend (DOM Manipulation)
+│   └── style.css           # Custom Styling
+│
+├── config/
+│   └── db.php              # Konfigurasi koneksi database (MySQLi/PDO)
+│
+├── handlers/               # Logic Processor (Backend Actions)
+│   ├── admin_handler.php   # Logika khusus admin
+│   ├── booking_handler.php # Proses input pemesanan
+│   ├── contact_handler.php # Form contact processing
+│   ├── login_handler.php   # Autentikasi masuk
+│   ├── logout.php          # Destruksi sesi
+│   ├── payment_handler.php # Validasi pembayaran
+│   └── register_handler.php# Pendaftaran user baru
+│
+├── includes/               # Komponen UI Reusable (Partials)
+│   ├── footer.php          # Bagian bawah halaman
+│   ├── head.php            # Meta tag & library links
+│   └── header.php          # Navigasi bar
+│
+├── about.php               # Halaman Tentan Kami
+├── admin_dashboard.php     # Halaman Utama Admin
+├── contact.php             # Halaman Kontak
+├── index.php               # Landing Page (Homepage)
+├── login.php               # Halaman Masuk
+├── payment.php             # Halaman Pembayaran
+├── profile.php             # Halaman Profil User
+└── register.php            # Halaman Pendaftaran
 
 ```
 
 ---
 
-## 🤝 Contributing
+## 🚀 Instalasi & Penggunaan
 
-Kontribusi sangat diterima untuk pengembangan fitur masa depan!
+Ikuti langkah ini untuk menjalankan proyek di komputer lokal (Localhost):
 
-1. Fork repository ini.
-2. Buat branch fitur baru (`git checkout -b fitur-keren`).
-3. Commit perubahan Anda (`git commit -m 'Menambahkan fitur keren'`).
-4. Push ke branch (`git push origin fitur-keren`).
-5. Buat **Pull Request**.
+### 1. Clone Repository
+
+Buka terminal atau Git Bash, lalu arahkan ke folder `htdocs` (jika menggunakan XAMPP).
+
+```bash
+cd C:/xampp/htdocs
+git clone [https://github.com/lmmanuela/fentasyart.git](https://github.com/lmmanuela/fentasyart.git)
+
+```
+
+### 2. Setup Database
+
+1. Aktifkan **Apache** dan **MySQL** di XAMPP.
+2. Buka `http://localhost/phpmyadmin`.
+3. Buat database baru bernama `fentasyart_db` (atau sesuaikan dengan nama di file config).
+4. Import file database (jika ada file `.sql` yang disediakan terpisah, atau buat tabel sesuai entitas proyek).
+
+### 3. Konfigurasi Koneksi
+
+Buka file `config/db.php` dan sesuaikan kredensial database Anda:
+
+```php
+// config/db.php
+$hostname = "localhost";
+$username = "root";
+$password = "";
+$database = "fentasyart_db"; // Sesuaikan nama DB
+
+```
+
+### 4. Jalankan Aplikasi
+
+Buka browser favorit Anda dan akses:
+`http://localhost/fentasyart`
 
 ---
 
-## 📄 License
+## 👥 Tim Pengembang
 
-Proyek ini didistribusikan di bawah lisensi **MIT**. Lihat file `LICENSE` untuk informasi lebih lanjut.
+Project ini dikembangkan untuk memenuhi tugas **Ujian Akhir Semester (UAS)**.
 
----
-
-## 👤 Author
-
-**[Nama Lengkap Anda]**
-
-* **Role:** Lead Developer & System Analyst
-* **Institution:** [Nama Universitas/Kampus]
-* **Connect with me:**
-
+* **[Nama Kamu]** - *Lead Developer*
+* **[Nama Anggota Tim]** - *UI/UX Designer*
+* **[Nama Anggota Tim]** - *Database Engineer*
 
 ---
 
 <div align="center">
-<i>Dibuat dengan ❤️ sebagai tugas Final Project / UAS 2025.</i>
+<small>Copyright © 2025 FENtasyArt. All Rights Reserved.</small>
 </div>
 
 ```
-
------
-
-### Tips Tambahan dari Sisi *Technical Writer*:
-
-1.  **Placeholder Gambar:** Pada bagian paling atas (`<img src="... via.placeholder.com ...">`), ganti URL tersebut dengan *screenshot* nyata dari *landing page* website FENtasyArt Anda. Visual adalah kunci daya tarik utama.
-2.  **Struktur Folder:** Saya membuatkan struktur folder imajiner (Project Structure) yang umum digunakan pada PHP Native/MVC. **Pastikan** Anda menyesuaikannya dengan struktur folder asli di komputer Anda agar akurat.
-3.  **Kredensial:** Jika ada akun admin default (misal: admin/admin123), sebaiknya tuliskan di bagian **Usage** agar dosen/penguji bisa langsung masuk tanpa harus membuka database.
-
-Apakah Anda ingin saya bantu buatkan file `.sql` dummy atau deskripsi untuk tabel database-nya juga?
+3.  **Database:** Pastikan nama database di file `config/db.php` kamu sesuai dengan yang kamu tulis di README (di contoh saya tulis `fentasyart_db`).
 
 ```
