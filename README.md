@@ -26,7 +26,7 @@
   </p>
 
   <p>
-    <a href="http://booksy.xo.je"><strong>🌐 Live Demo (fentasyart.xo.je)</strong></a>
+    <a href="http://booksy.xo.je"><strong>🌐 Live Demo (fentasyart.xo.je)</strong></a> •
     <a href="#-tentang-proyek">About</a> •
     <a href="#-fitur-unggulan">Features</a> •
     <a href="#-struktur-proyek">Structure</a> •
