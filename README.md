@@ -170,7 +170,3 @@ Project ini dikembangkan untuk memenuhi tugas **Ujian Akhir Semester (UAS)**.
 <small>Copyright © 2025 FENtasyArt. All Rights Reserved.</small>
 </div>
 
-```
-3.  **Database:** Pastikan nama database di file `config/db.php` kamu sesuai dengan yang kamu tulis di README (di contoh saya tulis `fentasyart_db`).
-
-```
