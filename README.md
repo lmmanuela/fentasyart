@@ -51,13 +51,13 @@ Berikut adalah tampilan antarmuka dari **FENtasyArt**:
 ### 🏠 Tampilan User (Frontend)
 | Halaman Utama | Form Booking |
 | :---: | :---: |
-| <img src="assets/screenshots/home.png" alt="Halaman Utama" width="100%"> | <img src="assets/screenshots/booking.png" alt="Form Booking" width="100%"> |
+| <img src="assets/screenshots/ss1.png" alt="Halaman Utama" width="100%"> | <img src="assets/screenshots/ss2.png" alt="Form Booking" width="100%"> |
 | *Landing Page yang responsif* | *Sistem booking yang mudah digunakan* |
 
 ### 👨‍💻 Tampilan Admin (Backend)
 | Dashboard Admin | Manajemen Workshop |
 | :---: | :---: |
-| <img src="assets/screenshots/admin_dashboard.png" alt="Admin Dashboard" width="100%"> | <img src="assets/screenshots/workshop_list.png" alt="List Workshop" width="100%"> |
+| <img src="assets/screenshots/ss3.png" alt="Admin Dashboard" width="100%"> | <img src="assets/screenshots/ss4.png" alt="List Workshop" width="100%"> |
 | *Ringkasan statistik pemesanan* | *Kontrol penuh untuk pengelolaan event* |
 
 ---
