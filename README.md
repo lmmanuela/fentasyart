@@ -57,7 +57,7 @@ Berikut adalah tampilan antarmuka dari **FENtasyArt**:
 ### 👨‍💻 Tampilan Admin (Backend)
 | Dashboard Admin | Manajemen Workshop |
 | :---: | :---: |
-| <img src="assets/screenshots/ss3.png" alt="Admin Dashboard" width="100%"> | <img src="assets/screenshots/ss4.png" alt="List Workshop" width="100%"> |
+| <img src="assets/screenshots/ss3.jpg" alt="Admin Dashboard" width="100%"> | <img src="assets/screenshots/ss4.jpg" alt="List Workshop" width="100%"> |
 | *Ringkasan statistik pemesanan* | *Kontrol penuh untuk pengelolaan event* |
 
 ---
