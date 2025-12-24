@@ -177,11 +177,11 @@ Buka browser favorit Anda dan akses:
 
 ## 👥 Tim Pengembang
 
-Project ini dikembangkan untuk memenuhi tugas **Ujian Akhir Semester (UAS)**.
+Project ini dikembangkan untuk memenuhi tugas **Ujian Akhir Semester (UAS)** Mata Kuliah Pemrograman Website.
 
-* **[Nama Kamu]** - *Lead Developer*
-* **[Nama Anggota Tim]** - *UI/UX Designer*
-* **[Nama Anggota Tim]** - *Database Engineer*
+* **Firta Aulika Aji Kusuma** - *24091397029*
+* **Muhammad Nadhiful Asyror** - *24091397044*
+* **Angelica Immanuela Nazarina** - *24091397050*
 
 ---
 
