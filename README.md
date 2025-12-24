@@ -44,6 +44,27 @@ Proyek ini dibangun untuk menyelesaikan masalah **fragmentasi informasi** jadwal
 
 ---
 
+## 📸 Galeri Tampilan
+
+Berikut adalah antarmuka aplikasi Booksy yang sudah berjalan:
+
+| **Halaman Utama (Home)** | **Katalog Pencarian** |
+| :---: | :---: |
+| <img src="images/ss1.png" alt="Halaman Utama" width="100%"> | <img src="images/ss2.png" alt="Katalog Buku" width="100%"> |
+| *Landing page yang ramah pengguna* | *Fitur pencarian buku real-time* |
+
+| **Detail Buku & Stok** | **Tiket QR Code** |
+| :---: | :---: |
+| <img src="images/ss3.png" alt="Detail Buku" width="100%"> | <img src="images/ss4.png" alt="Tiket QR" width="100%"> |
+| *Informasi lengkap dan sisa stok* | *Bukti booking untuk discan admin* |
+
+| **Dashboard Admin** | **Manajemen Peminjaman** |
+| :---: | :---: |
+| <img src="images/ss5.png" alt="Dashboard Admin" width="100%"> | <img src="images/ss6.png" alt="Data Peminjaman" width="100%"> |
+| *Panel kontrol untuk pustakawan* | *Validasi peminjaman & pengembalian* |
+
+---
+
 ## 🛠 Tech Stack
 
 Sistem dibangun dengan pendekatan *Native PHP* yang terstruktur (separation of concerns) untuk memastikan performa ringan dan kemudahan maintenance.
